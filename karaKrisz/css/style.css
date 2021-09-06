@@ -1,0 +1,57 @@
+/******************** banner start **********************/
+
+.image-banner--bg-img {
+    background-image: url(../img/fish.jpg);
+    height: 700px;
+    background-size: cover;
+    margin-bottom: 100px;
+    background-position-x: -190px;
+    background-repeat: no-repeat;
+}
+
+/******************** portfolio start **********************/
+
+.portfolio-sec .cbp-l-grid-mosaic .cbp-caption-activeWrap {
+    background: #EDF2F4 !important;
+}
+
+.portfolio-sec .portfolio-hover-effect .hover-text .p-hover-title {
+    color: black !important;
+}
+
+.portfolio-sec .portfolio-hover-effect .hover-text .p-hover-des {
+    color: black !important;
+}
+
+/******************** contact start **********************/
+
+.bg-black {
+    display: none;
+}
+
+/******************** media start **********************/
+
+@media screen and (max-width: 767px) {
+
+    header a.logo img {
+        max-width: 100px;
+        vertical-align: sub;
+    }
+
+    .header-appear .navbar-top-default {
+        height: 120px !important;
+    }
+
+    .image-banner--bg-img {
+        height: 400px;
+        width: 100%;
+        left: 0;
+        background-position-x: -85px;
+    }
+
+    .cbp-popup-ready.cbp-popup-lightbox .cbp-popup-next,
+    .cbp-popup-ready.cbp-popup-lightbox .cbp-popup-prev,
+    .cbp-popup-ready.cbp-popup-lightbox .cbp-popup-close {
+        visibility: visible !important;
+    }
+}
